@@ -1,0 +1,65 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    position: fixed; /* Keep the navbar fixed */
+    top: 0;         /* Align it to the top */
+    left: 0;        /* Align it to the left */
+    width: 12%;   /* Set a width for the navbar */
+    height: 100%;   /* Full height */
+    background-color: #f8f9fa; /* Background color */
+    padding: 20px;  /* Some padding */
+    box-shadow: 7px 0 20px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+
+  .active-link {
+    font-weight: bold;
+    color: #000;
+    font-size: small;
+    transition: color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .active-link:hover {
+    color: #007bff;
+    transform: scale(1.1); /* Enlarge the active link slightly on hover */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+  }
+  
+  .navbar ul li {
+    margin: 13% 0; /* Space between links */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333;          /* Text color */
+    font-size: small;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .navbar ul li a:hover {
+    color: #007bff; /* Change the color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+  }
+  
+  .logo {
+    display: block;
+    width: 60%;    /* Adjust logo width to fit the navbar */
+    height: auto;   /* Maintain aspect ratio */
+    margin: 0 auto;
+  }
+
+  .nav-icon {
+    font-size: 20px;   /* Set the desired font size */
+    margin-right: 9%; /* Space between icon and text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+  }
+
+  .support {
+    text-decoration: none; /* Remove underline */
+    color: gray;          /* Text color */
+    font-size: small;
+    margin-top: 30%;
+  }
